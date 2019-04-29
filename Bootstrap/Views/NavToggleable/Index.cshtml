@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<h2>Index</h2>
+
+<div class="container">
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#anasayfa"> Anasayfa</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu1"> Menu 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu2"> Menu 2</a>
+        </li>
+    </ul>
+    <div class="tab-content">
+        <div id="anasayfa" class="container tab-pane active">
+            <h3>Anasayfa</h3>
+            <p>Anasayfa yazıları</p>
+        </div>
+        <div id="menu1" class="container tab-pane fade">
+            <h3>Menu 1</h3>
+            <p>Menu 1 yazıları</p>
+        </div>
+        <div id="menu2" class="container tab-pane fade">
+            <h3>Menu 2</h3>
+            <p>Menu 2 yazıları</p>
+        </div>
+
+    </div>
+</div>
+

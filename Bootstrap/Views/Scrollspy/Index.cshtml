@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<h2>Index</h2>
+
+<style>
+    body {position:relative;}
+</style>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#bolum1">Bolum 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#bolum2">Bolum 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#bolum3">Bolum 3</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Bolum 4</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#bolum41">Bolum 41</a>
+                    <a class="dropdown-item" href="#bolum42">Bolum 42</a>
+                </div>
+            </li>
+
+        </ul>
+
+    </nav>
+    <div id="bolum1" class="container-fluid bg-success" style="padding-top:150px;padding-bottom:70px;">
+        yazı
+    </div>
+    <div id="bolum2" class="container-fluid bg-warning" style="padding-top:150px;padding-bottom:70px;">
+        yazı
+    </div>
+    <div id="bolum3" class="container-fluid bg-danger" style="padding-top:150px;padding-bottom:70px;">
+        yazı
+    </div>
+    <div id="bolum41" class="container-fluid bg-secondary" style="padding-top:150px;padding-bottom:70px;">
+        yazı
+    </div>
+    <div id="bolum42" class="container-fluid bg-dark" style="padding-top:150px;padding-bottom:70px;">
+        yazı
+    </div>
+
+</body>

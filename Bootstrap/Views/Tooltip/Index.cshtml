@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<h2>Index</h2>
+
+<div class="container">
+    <h3>Tooltip örneği</h3>
+
+    <a href="#" data-toggle="tooltip" title="Hahahaha" data-placement="right">Üzerime Gel</a>
+
+</div>
+
+<script>
+
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>

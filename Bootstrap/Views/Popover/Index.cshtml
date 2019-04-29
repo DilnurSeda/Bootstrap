@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<h2>Index</h2>
+
+<div class="container">
+    <h3>Popover örneği</h3>
+
+    <a href="#" data-toggle="popover" title="Popover Başlık"  data-content="Content ile popover body oluşturuldu.">Toggle popover</a>
+    <hr />
+    <a href="#" data-toggle="popover" title="Popover Başlık" data-trigger="hover" data-content="Content ile popover body oluşturuldu.">Toggle popover</a>
+    <hr />
+    <a href="#" data-toggle="popover" title="Popover Başlık" data-trigger="focus" data-content="Content ile popover body oluşturuldu.">Toggle popover</a>
+</div>
+
+<script>
+
+    $(document).ready(function () {
+        $('[data-toggle="popover"]').popover();
+    });
+</script>

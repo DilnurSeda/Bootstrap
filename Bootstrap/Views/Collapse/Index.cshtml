@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<h2>Index</h2>
+
+<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">
+    Collapse
+</button>
+
+<div class="collapse" id="demo">
+    Yazılar
+</div>
+
+<hr />
+
+<div id="accordion">
+    <div class="card">
+        <div class="card-header">
+            <a class="card-link" href="#collapse1" data-toggle="collapse" data-parent="#accordion"> Collapse 1</a>
+        </div>
+        <div id="collapse1" class="collapse">
+            <div class="card-body">
+                yazı 1
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <a class="card-link" href="#collapse2" data-toggle="collapse" data-parent="#accordion"> Collapse 2</a>
+        </div>
+        <div id="collapse2" class="collapse">
+            <div class="card-body">
+                yazı 2
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <a class="card-link" href="#collapse3" data-toggle="collapse" data-parent="#accordion"> Collapse 3</a>
+        </div>
+        <div id="collapse3" class="collapse">
+            <div class="card-body">
+                yazı 3
+            </div>
+        </div>
+    </div>
+</div>
